@@ -104,9 +104,9 @@
 			</properties>
 		</profile>
 		<profile>
-			<id>production</id>
+			<id>prod</id>
 			<properties>
-				<env>production</env>
+				<env>prod</env>
 			</properties>
 		</profile>
 	</profiles>
