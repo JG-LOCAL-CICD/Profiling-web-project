@@ -7,8 +7,8 @@
 	<groupId>com.kctechnologies</groupId>
 	<artifactId>maven-web-project</artifactId>
 	<packaging>war</packaging>
-	<version>1.0-SNAPSHOT</version>
-	<name>Maven Web Project</name>
+	<version>1.0-RELEASE</version>
+	<name>MavenWebProject</name>
 	<description>Maven Web Project for Java</description>
 	<properties>
 		<spring.version>4.1.4.RELEASE</spring.version>
@@ -77,12 +77,12 @@
 	<distributionManagement>
 		<repository>
 			<id>nexus</id>
-			<name>KC Tech Releases Nexus Repository</name>
+			<name> GCP Release Nexus Repository</name>
 			<url>http://13.233.55.160:8081/repository/kc-maven-release/</url>
 		</repository>
 		<snapshotRepository>
 			<id>nexus</id>
-			<name>KC Tech Snapshot Nexus Repository </name>
+			<name>GCP  Snapshot Nexus Repository </name>
 			<url>http://13.233.55.160:8081/repository/kc-maven-snapshot/</url>
 		</snapshotRepository>
 	</distributionManagement>
